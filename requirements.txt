@@ -16,3 +16,4 @@ sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
 twilio==6.56.0
 typing-extensions==3.7.4.3
 urllib3==1.26.4
+wikipedia
