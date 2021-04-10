@@ -1,0 +1,41 @@
+# packages in environment at /home/chandanmahto/anaconda3/envs/hackathon:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+asgiref                   3.3.4              pyhd3eb1b0_0  
+ca-certificates           2021.1.19            h06a4308_1  
+certifi                   2020.12.5        py37h06a4308_0  
+chardet                   4.0.0                    pypi_0    pypi
+django                    3.1.8                    pypi_0    pypi
+django-phonenumber-field  5.0.0                    pypi_0    pypi
+django-twilio             0.13.1.post0             pypi_0    pypi
+djangorestframework       3.12.4                   pypi_0    pypi
+idna                      2.10                     pypi_0    pypi
+krb5                      1.17.1               h173b8e3_0  
+ld_impl_linux-64          2.33.1               h53a641e_7  
+libedit                   3.1.20210216         h27cfd23_1  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 9.1.0                hdf63c60_0  
+libpq                     12.2                 h20c2e04_0  
+libstdcxx-ng              9.1.0                hdf63c60_0  
+ncurses                   6.2                  he6710b0_1  
+openssl                   1.1.1k               h27cfd23_0  
+phonenumbers              8.12.21                  pypi_0    pypi
+pip                       21.0.1           py37h06a4308_0  
+psycopg2                  2.8.6            py37h3c74f83_1  
+pyjwt                     1.7.1                    pypi_0    pypi
+python                    3.7.10               hdb3f193_0  
+pytz                      2021.1             pyhd3eb1b0_0  
+readline                  8.1                  h27cfd23_0  
+requests                  2.25.1                   pypi_0    pypi
+setuptools                52.0.0           py37h06a4308_0  
+six                       1.15.0                   pypi_0    pypi
+sqlite                    3.35.4               hdfb4753_0  
+sqlparse                  0.4.1                      py_0  
+tk                        8.6.10               hbc83047_0  
+twilio                    6.56.0                   pypi_0    pypi
+typing-extensions         3.7.4.3                  pypi_0    pypi
+urllib3                   1.26.4                   pypi_0    pypi
+wheel                     0.36.2             pyhd3eb1b0_0  
+xz                        5.2.5                h7b6447c_0  
+zlib                      1.2.11               h7b6447c_3  
