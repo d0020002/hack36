@@ -10,6 +10,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from subscription import models as sub_models
 from twilio.rest import Client
+import wikipedia
 # fill twilio acc details here
 client = Client(settings.ACCOUNT_SID, settings.AUTH_ID)
 twilio_no = settings.TWILIO_NO
@@ -82,3 +83,14 @@ def next_topic(phone):
                 progress.last_topic = sub_models.Topic.objects.get(chapter=progress.last_chapter,
                                                                    index=progress.last_topic_id)
                 return TopicSerializer(progress.last_topic)
+
+@api_view(['POST'])            
+def search(request):
+    data = {
+        "term": request.data.get('term'),
+        "phone": request.data.get('phone')
+    }
+    st = request.data.get(data['term'])
+    message = client.messages.create(from_='twilio_no', body=wikipedia.summary(st, sentences=3), to=data["phone"])
+    return Response("successful")
+            
