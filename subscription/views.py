@@ -15,6 +15,11 @@ client = Client(settings.ACCOUNT_SID, settings.AUTH_ID)
 twilio_no = settings.TWILIO_NO
 
 
+@api_view(['GET'])
+def test_view(request):
+    return Response("Hosted Successfully", status=status.HTTP_200_OK)
+
+
 @api_view(['POST'])
 def register_student(request):
     data = {
